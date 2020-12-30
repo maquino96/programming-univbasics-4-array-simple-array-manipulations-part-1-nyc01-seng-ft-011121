@@ -12,7 +12,7 @@ end
 
 bleh = [1,2,3,4]
 
-def pop_with_args(array, int)
+def pop_with_args(array, int =2)
   array.pop(int)
 end
 
