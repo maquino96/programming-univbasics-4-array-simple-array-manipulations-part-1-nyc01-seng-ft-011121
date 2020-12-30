@@ -10,9 +10,15 @@ def using_pop(array)
   array.pop
 end
 
+bleh = [1,2,3,4]
+
 def pop_with_args(array, int)
   array.pop(int)
+  puts bleh
 end
+
+pop_with_args(bleh,2)
+
 
 def using_shift(array)
   array.shift
