@@ -16,8 +16,8 @@ def pop_with_args(array, int)
   array.pop(int)
 end
 
-puts pop_with_args(bleh,2).class
-puts bleh.class
+puts pop_with_args(bleh,2).size
+puts bleh.size
 
 def using_shift(array)
   array.shift
