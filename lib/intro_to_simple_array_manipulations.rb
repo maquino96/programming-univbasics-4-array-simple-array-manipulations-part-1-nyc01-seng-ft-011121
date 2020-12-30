@@ -11,9 +11,13 @@ def using_pop(array)
 end
 
 def pop_with_args(array, int)
-  puts array.pop(int)
+  array.pop(int)
 end
 
 def using_shift(array)
   array.shift
 end 
+
+def shift_with_args(array, int)
+  array.shift(int)
+end   
